@@ -1,6 +1,7 @@
 # Terraform 기반 AWS Secure Web Infrastructure
 
-Terraform을 활용하여 AWS 환경에 고가용성과 보안을 고려한 웹 인프라를 구축한 프로젝트입니다.
+Terraform을 활용하여 AWS 환경에 고가용성(High Availability)과 보안을 고려한 웹 인프라를 구축한 프로젝트입니다.
+Multi-AZ, Auto Scaling, ALB, RDS, WAF를 적용하여 장애 복구 및 웹 공격 대응이 가능한 환경을 구현하였습니다.
 
 ## Architecture
 <img width="736" height="591" alt="image" src="https://github.com/user-attachments/assets/43932714-aa68-4baf-ae04-84cb62025516" />
@@ -36,3 +37,8 @@ Terraform을 활용하여 AWS 환경에 고가용성과 보안을 고려한 웹 
 - DVWA 환경 구성
 - SQL Injection 차단 확인
 - XSS 공격 차단 확인
+
+## Monitoring
+
+- CloudWatch 기반 리소스 모니터링
+- 상태 확인 및 장애 대응 테스트 수행
