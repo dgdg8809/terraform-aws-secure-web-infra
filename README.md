@@ -2,6 +2,11 @@
 
 Terraform을 활용하여 AWS 환경에 고가용성과 보안을 고려한 웹 인프라를 구축한 프로젝트입니다.
 
+# Terraform 기반 AWS Secure Web Infrastructure
+
+## Architecture
+<img width="736" height="591" alt="image" src="https://github.com/user-attachments/assets/43932714-aa68-4baf-ae04-84cb62025516" />
+
 ## 주요 기술
 
 - Terraform
